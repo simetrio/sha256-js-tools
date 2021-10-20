@@ -1,11 +1,11 @@
-import { work } from "./sha256";
+import { generate } from "./sha256";
 
-export { work } from "./sha256";
+export { generate } from "./sha256";
 
 export const SHA256: ISHA256 = {
-    work,
+    generate,
 };
 
 interface ISHA256 {
-    work: (value: string) => string;
+    generate: (unicodeText: string) => string;
 }
