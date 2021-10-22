@@ -38,7 +38,7 @@ const { SHA256 } = require("sha256-js-tools");
 or
 
 ```javascript
-<script src="https://cdn.jsdelivr.net/gh/simetrio/sha256-js-tools@1.0.0/sha256.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sha256-js-tools@1.0.2/lib/sha256.min.js"></script>
 ```
 
 ## Usage
